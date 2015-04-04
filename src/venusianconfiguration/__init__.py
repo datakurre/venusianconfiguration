@@ -28,7 +28,7 @@ NAMESPACES = {
     'i18n': 'http://namespaces.zope.org/i18n',
     'kss': 'http://namespaces.zope.org/kss',
     'meta': 'http://namespaces.zope.org/meta',
-    'monkey': 'http://namespaces.zope.org/monkey',
+    'monkey': 'http://namespaces.plone.org/monkey',
     'plone': 'http://namespaces.plone.org/plone',
     'transmogrifier': 'http://namespaces.plone.org/transmogrifier',
     'z3c': 'http://namespaces.zope.org/z3c',
