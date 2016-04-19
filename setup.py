@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='venusianconfiguration',
-    version='0.9.0',
+    version='1.0.0',
     description='Experiment for configuring with venusian instead of *.zcml',
     long_description=(open('README.rst').read() + '\n' +
                       open('CHANGES.txt').read()),
@@ -14,7 +14,7 @@ setup(
     keywords='',
     author='Asko Soukka',
     author_email='asko.soukka@iki.fi',
-    url='https://github.com/datakurre/collective.venusianconfig/',
+    url='https://github.com/datakurre/venusianconfiguration/',
     license='GPL',
     packages=find_packages('src', exclude=['ez_setup']),
     package_dir={'': 'src'},
