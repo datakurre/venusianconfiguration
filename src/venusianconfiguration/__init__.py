@@ -198,6 +198,8 @@ class configure(with_metaclass(ConfigureMeta, object)):
                     return
 
                 # Configure standalone directive
+                if getattr(scanner.context, 'info', '') == '':
+                    scanner.context.info = self_.__info__
                 scanner.context.begin(directive_, arguments, self_.__info__)
 
                 # Do not end when used with 'with' statement
