@@ -99,12 +99,12 @@ class CodeInfo(ParserInfo):
 
 
 def get_identifier_or_string(value):
-    if hasattr(value, '__module__') and hasattr(value, '__name__'):
+    if isinstance(value, types.ModuleType):
+        return value.__name__
+    elif hasattr(value, '__module__') and hasattr(value, '__name__'):
         return '.'.join([value.__module__, value.__name__])
     elif (hasattr(value, '__package__') and hasattr(value, '__name__')
           and value.__package__ == value.__name__):
-        return value.__name__
-    elif isinstance(value, types.ModuleType):
         return value.__name__
     else:
         return value
