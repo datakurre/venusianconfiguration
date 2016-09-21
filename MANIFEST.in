@@ -1,3 +1,4 @@
-recursive-include src *
+graft src
 include *
 global-exclude *.pyc
+prune demo
