@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.0.1 (unreleased)
+1.0.1 (2016-09-21)
 ------------------
 
 - Fix issue where zope.deferredimported module was not recognized as module
