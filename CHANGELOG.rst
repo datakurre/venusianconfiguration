@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.0.2 (unreleased)
+1.0.2 (2017-12-21)
 ------------------
 
 - Fix issue where default configuration directive being mutable caused
