@@ -132,7 +132,10 @@ class configure(with_metaclass(ConfigureMeta, object)):
                 venusian.advice.getFrameInfo(sys._getframe(depth))
             venusian.attach(module, callback, depth=depth)
 
-    def __init__(self, directive=['zope', 'configure'], **kwargs):
+    def __init__(self, directive=None, **kwargs):
+        # Default directive
+        if directive is None:
+            directive = ['zope', 'configure']
         # Flag whether this is a complex (nested) directive or not
         self.__is_complex__ = False
 
