@@ -5,7 +5,9 @@ Changelog
 ------------------
 
 - Drop z3c.autoinclude plugin entrypoint for plone to fix issues with where
-  z3c.autoinclude included wrong packages on and pip-installed Plone
+  z3c.autoinclude included wrong packages on and pip-installed Plone. This
+  will disable the experimental ZCML directives from meta.zcml to be loaded
+  by default with Plone.
   [datakurre]
 
 1.0.2 (2017-12-21)
