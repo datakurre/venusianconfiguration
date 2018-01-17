@@ -4,8 +4,9 @@ Changelog
 1.0.3 (unreleased)
 ------------------
 
-- Nothing changed yet.
-
+- Drop z3c.autoinclude plugin entrypoint for plone to fix issues with where
+  z3c.autoinclude included wrong packages on and pip-installed Plone
+  [datakurre]
 
 1.0.2 (2017-12-21)
 ------------------
