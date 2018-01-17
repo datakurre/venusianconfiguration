@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.0.3 (unreleased)
+1.1.0 (2018-01-17)
 ------------------
 
 - Drop z3c.autoinclude plugin entrypoint for plone to fix issues with where
