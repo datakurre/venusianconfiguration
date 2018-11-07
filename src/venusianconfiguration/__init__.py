@@ -21,6 +21,7 @@ NAMESPACES = {
     'browser': 'http://namespaces.zope.org/browser',
     'cache': 'http://namespaces.zope.org/cache',
     'cmf': 'http://namespaces.zope.org/cmf',
+    'faceted': 'http://namespaces.zope.org/faceted',
     'five': 'http://namespaces.zope.org/five',
     'genericsetup': 'http://namespaces.zope.org/genericsetup',
     'grok': 'http://namespaces.zope.org/grok',
