@@ -4,8 +4,8 @@ Changelog
 1.1.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
-
+- Add faceted namespace
+  [datakurre]
 
 1.1.0 (2018-01-17)
 ------------------
