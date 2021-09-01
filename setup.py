@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='venusianconfiguration',
-    version='1.1.2',
+    version='1.1.3.dev0',
     description='Experiment for configuring with venusian instead of *.zcml',
     long_description=(open('README.rst').read() + '\n' +
                       open('CHANGELOG.rst').read()),
