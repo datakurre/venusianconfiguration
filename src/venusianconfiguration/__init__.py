@@ -401,7 +401,7 @@ class MonkeyPatcher(ImpLoader):
     def get_data(self, pathname):
         if os.path.split(pathname) == (self.filename, 'component.xml'):
             enable()
-            return '<component></component>'
+            return b'<component></component>'
         return super(MonkeyPatcher, self).get_data(self, pathname)
 
 __loader__ = MonkeyPatcher(sys.modules[__name__])
