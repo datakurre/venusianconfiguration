@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.1.2 (unreleased)
+1.1.2 (2021-09-01)
 ------------------
 
 - Fix issue where PEP 320 hook failed on Plone 5.2 because dummy component.xml was returned as string instead of bytes
