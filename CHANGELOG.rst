@@ -4,8 +4,8 @@ Changelog
 1.1.2 (unreleased)
 ------------------
 
-- Nothing changed yet.
-
+- Fix issue where PEP 320 hook failed on Plone 5.2 because dummy component.xml was returned as string instead of bytes
+  [datakurre]
 
 1.1.1 (2018-11-07)
 ------------------
